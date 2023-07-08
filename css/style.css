@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* google fonts in here  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav .logo{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 18px;
+}
+
+nav li a{
+    color: #474747;
+    text-decoration: none;
+}
+
+nav ul > .btn {
+    color: #fff;
+    border-radius: 5px;
+    background: #FD6E0A;   
+    padding: 18px 35px;  
+}
+
+
+
