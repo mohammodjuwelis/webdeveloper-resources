@@ -14,12 +14,23 @@ body{
 .text-primary {
     color: #FD6E0A;
 }
+.btn-primary{
+    color: #fff ;
+    background-color: #FD6E0A;
+}
+
+
+/* header-area in here  */
+
+.header-area{
+    background-color: #fff8f3;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 20px 100px;
 }
 
 nav .logo{
@@ -36,7 +47,7 @@ nav > ul {
 
 nav li {
     list-style: none;
-    margin-right: 18px;
+    margin-right: 22px;
 }
 
 nav li a{
@@ -48,8 +59,53 @@ nav ul > .btn {
     color: #fff;
     border-radius: 5px;
     background: #FD6E0A;   
-    padding: 18px 35px;  
+    padding: 18px 35px; 
+    font-size: 20px;
+    text-transform: capitalize; 
 }
+
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.banner-content button {
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner .profile-picture {
+    width: 500px;
+}
+
 
 
 
