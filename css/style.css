@@ -24,6 +24,10 @@ body{
 
 .header-area{
     background-color: #fff8f3;
+    background-image: url("../images/header_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 nav{
@@ -66,10 +70,14 @@ nav ul > .btn {
 
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
 }
 
 .banner-greeting {
@@ -85,7 +93,7 @@ nav ul > .btn {
     margin-bottom: 15px;
 }
 
-.banner-content p {
+.banner-description {
     color: #757575;
     font-size: 20px;
     font-weight: 400;
